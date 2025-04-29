@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 3, Errors: 0, Skipped: 6, Time elapsed: 33.208 s <<< FAILURE! - in TestSuite
-beforeMethod(runner.Testcase1)  Time elapsed: 12.921 s  <<< FAILURE!
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 6, Time elapsed: 33.706 s <<< FAILURE! - in TestSuite
+beforeMethod(runner.Testcase1)  Time elapsed: 13.413 s  <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
 Host info: host: 'aecceafdfadafaeccbcfdbdfcccbcdcadadac-0', ip: '10.244.2.130'
@@ -32,7 +32,7 @@ Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection t
 Caused by: java.net.ConnectException: connection timed out: /34.85.201.58:4478
 Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /34.85.201.58:4478
 
-beforeMethod(runner.Testcase3)  Time elapsed: 10.022 s  <<< FAILURE!
+beforeMethod(runner.Testcase3)  Time elapsed: 10.018 s  <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
 Host info: host: 'aecceafdfadafaeccbcfdbdfcccbcdcadadac-0', ip: '10.244.2.130'
