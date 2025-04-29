@@ -1,26 +1,26 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 3, Errors: 0, Skipped: 6, Time elapsed: 33.601 s <<< FAILURE! - in TestSuite
-beforeMethod(runner.Testcase3)  Time elapsed: 13.312 s  <<< FAILURE!
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 6, Time elapsed: 33.208 s <<< FAILURE! - in TestSuite
+beforeMethod(runner.Testcase1)  Time elapsed: 12.921 s  <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'aecceafdfadafaeccbcfdbdfcccbcdcadadac-0', ip: '10.244.2.155'
+Host info: host: 'aecceafdfadafaeccbcfdbdfcccbcdcadadac-0', ip: '10.244.2.130'
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1086-azure', java.version: '11.0.26'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: chrome}]}]
 Capabilities {browserName: chrome}
-	at runner.Testcase3.beforeMethod(Testcase3.java:41)
+	at runner.Testcase1.beforeMethod(Testcase1.java:37)
 Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /34.85.201.58:4478
-	at runner.Testcase3.beforeMethod(Testcase3.java:41)
+	at runner.Testcase1.beforeMethod(Testcase1.java:37)
 Caused by: java.net.ConnectException: connection timed out: /34.85.201.58:4478
 Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /34.85.201.58:4478
 
-beforeMethod(runner.Testcase2)  Time elapsed: 10.017 s  <<< FAILURE!
+beforeMethod(runner.Testcase2)  Time elapsed: 10.022 s  <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'aecceafdfadafaeccbcfdbdfcccbcdcadadac-0', ip: '10.244.2.155'
+Host info: host: 'aecceafdfadafaeccbcfdbdfcccbcdcadadac-0', ip: '10.244.2.130'
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1086-azure', java.version: '11.0.26'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -32,18 +32,18 @@ Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection t
 Caused by: java.net.ConnectException: connection timed out: /34.85.201.58:4478
 Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /34.85.201.58:4478
 
-beforeMethod(runner.Testcase1)  Time elapsed: 10.016 s  <<< FAILURE!
+beforeMethod(runner.Testcase3)  Time elapsed: 10.022 s  <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'aecceafdfadafaeccbcfdbdfcccbcdcadadac-0', ip: '10.244.2.155'
+Host info: host: 'aecceafdfadafaeccbcfdbdfcccbcdcadadac-0', ip: '10.244.2.130'
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1086-azure', java.version: '11.0.26'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: chrome}]}]
 Capabilities {browserName: chrome}
-	at runner.Testcase1.beforeMethod(Testcase1.java:37)
+	at runner.Testcase3.beforeMethod(Testcase3.java:41)
 Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection timed out: /34.85.201.58:4478
-	at runner.Testcase1.beforeMethod(Testcase1.java:37)
+	at runner.Testcase3.beforeMethod(Testcase3.java:41)
 Caused by: java.net.ConnectException: connection timed out: /34.85.201.58:4478
 Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /34.85.201.58:4478
 
